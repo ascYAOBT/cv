@@ -1,6 +1,7 @@
 {
   "name": "moncv",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description":"cv Alexis St-Pierre Cadieux"
   "engine": {
     "node": "10.16.1"
   },
