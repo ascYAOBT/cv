@@ -355,6 +355,14 @@ cursor: pointer;
     border-radius: 5px;
 }
 
+.cardEdu ul i{
+  display: none;
+}
+
+
+#section4 i {
+  display: none;
+}
 
 @keyframes slidingImage{
     from{right:80vw;}
@@ -496,6 +504,9 @@ cursor: pointer;
   .cardEdu ul i{
       font-size: 5vw;
       margin-top: 5%;
+  }
+  #section4 i {
+    display: inline-block;
   }
 
 }
