@@ -17,8 +17,20 @@ function showImg2(j){
 })
 };
 
-function showFooter(){
-  document.getElementById("section4").style.height = "5vh"
+function showFooter(source){
+  let width = screen.width;
+  console.log("source: "+ source);
+  if (width < 600){
+    switch (source) {
+      case 1:document.getElementById("section4").style.height = "3.5vh";
+        break;
+    case 2:document.getElementById("section4").style.height = "auto";
+        break;
+      default:
+    }
+  } else{
+  document.getElementById("section4").style.height = "5vh";
+}
 }
 
 function sendEmail(message) {
