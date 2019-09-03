@@ -380,9 +380,16 @@ cursor: pointer;
       display: none;
   }
 
+  .container{
+      overflow: scroll;
+      scroll-behavior: smooth;
+      height: 100vh;
+      scroll-snap-type: none;
+  }
+
   .section{
       height: 100vh;
-      scroll-snap-align: start;
+      scroll-snap-align: none;
   }
 
   .headerVisible{
@@ -508,5 +515,7 @@ cursor: pointer;
   #section4 i {
     display: inline-block;
   }
+
+
 
 }
